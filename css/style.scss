@@ -1,0 +1,68 @@
+$col1: #010510;
+$col2: #5A6E8E;
+$col3: #93AABF;
+$col4: #033256;
+$col5: #C4D2D9;
+
+$input_padding: 1.6em;
+
+$sil_col1: #F4F5F4;
+$sil_col2: #714A28;
+$sil_col3: #F3CCA5;
+$sil_col4: #3E1B09;
+$sil_col5: #250905;
+
+html, body {
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: $sil_col5;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+.container {
+  margin-top: 25vh;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: center;
+}
+
+#input-field {
+  text-align: right;
+  padding-left: $input_padding;
+  padding-right: $input_padding;
+  height: 60px;
+  word-wrap: break-word;
+}
+
+#result-field {
+  text-align: right;
+  padding-left: $input_padding;
+  padding-right: $input_padding;
+  word-wrap: break-word;
+  color: $sil_col3;
+}
+
+#main_cont {
+  background-color: $sil_col2;
+}
+
+.cal-button {
+  background-color: $sil_col3;
+  height: 60px;
+}
+.cal-button-hover {
+  background-color: $sil_col1;
+  height: 60px;
+}

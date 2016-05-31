@@ -1,0 +1,47 @@
+html, body {
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #250905; }
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300; }
+
+footer {
+  margin: 50px 0; }
+
+.container {
+  margin-top: 25vh; }
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: center; }
+
+#input-field {
+  text-align: right;
+  padding-left: 1.6em;
+  padding-right: 1.6em;
+  height: 60px;
+  word-wrap: break-word; }
+
+#result-field {
+  text-align: right;
+  padding-left: 1.6em;
+  padding-right: 1.6em;
+  word-wrap: break-word;
+  color: #F3CCA5; }
+
+#main_cont {
+  background-color: #714A28; }
+
+.cal-button {
+  background-color: #F3CCA5;
+  height: 60px; }
+
+.cal-button-hover {
+  background-color: #F4F5F4;
+  height: 60px; }
+
+/*# sourceMappingURL=style.css.map */
